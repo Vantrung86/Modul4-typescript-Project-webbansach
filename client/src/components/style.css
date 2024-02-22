@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(241, 21, 21);
+    padding: 20px;
+}
+.top h2{
+    font-size: 40px;
+}
+.top {
+    border-bottom: 1px solid white;
+}
+.top p{
+    padding-bottom: 5px;
+}
+ul{
+    padding-top: 20px;
+}
+ul li{
+    list-style: none;
+    padding: 10px 5px;
+    position: relative;
+}
+ul li:hover{
+    background-color: rgb(236, 122, 122);
+}
+ul li i.fa-trash-can{
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+ul li input{
+    position: absolute;
+    right: 30px;
+    top:13px
+}
+.center p{
+    text-align: right;
+    padding: 10px 0;
+}
+.button{
+    margin-top: 25px;
+}
+.form-group{
+    display: flex;
+}
+.form-group input{
+    padding: 5px;
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+}
+.form-group input:focus{
+    outline: none;
+}
+.form-group button{
+    padding: 5px;
+    width: 25%;
+    color: white;
+    background-color: rgb(241, 21, 21);
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
